@@ -12,6 +12,12 @@ class CalculadoraTest {
     }
 
     @Test
+    @DisplayName("Sub two numbers")
+    void sub() {
+        assertEquals(0, Calculadora.sub(2, 2));
+    }
+
+    @Test
     @DisplayName("Multiply two numbers")
     void multiply() {
         assertAll(() -> assertEquals(4, Calculadora.multiply(2, 2)),

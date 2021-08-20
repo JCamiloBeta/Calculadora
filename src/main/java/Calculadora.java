@@ -12,4 +12,8 @@ public class Calculadora {
                 .reduce(1, (a, b) -> a * b);
     }
 
+    static double sub(double a, double b){
+        return a-b;
+    }
+
 }
